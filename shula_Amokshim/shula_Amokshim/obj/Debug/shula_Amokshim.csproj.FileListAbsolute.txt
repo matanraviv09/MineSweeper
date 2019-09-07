@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\bin\Debug\shula_Amokshim.exe.config
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\bin\Debug\shula_Amokshim.exe
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\bin\Debug\shula_Amokshim.pdb
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.Form1.resources
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.Properties.Resources.resources
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.exe
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.pdb
+C:\Users\USER\source\repos\shula_Amokshim\shula_Amokshim\obj\Debug\shula_Amokshim.newGame.resources
