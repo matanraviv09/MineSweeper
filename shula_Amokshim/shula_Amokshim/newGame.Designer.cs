@@ -41,6 +41,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.place3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -158,6 +161,36 @@
             this.place3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.place3.Visible = false;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(242, 35);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(82, 31);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Easy";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(242, 66);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(82, 31);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Hard";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(242, 97);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(82, 31);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Expert";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // newGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -165,6 +198,9 @@
             this.BackgroundImage = global::shula_Amokshim.Properties.Resources.Capture;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(331, 252);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.place3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -198,5 +234,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label place3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

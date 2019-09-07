@@ -60,6 +60,28 @@ namespace shula_Amokshim
             
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            intwidth = 10;
+            intheight = 10;
+            intbombs = 10;
+            finished = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            intwidth = 23;
+            intheight = 15;
+            intbombs = 45;
+            finished = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            intwidth = 35;
+            intheight = 20;
+            intbombs = 100;
+            finished = true;
+        }
     }
 }

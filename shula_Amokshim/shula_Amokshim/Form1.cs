@@ -396,6 +396,8 @@ namespace shula_Amokshim
                 {
                     if (Game[i, j].isBomb())
                         Game[i, j].vis.BackColor = Color.Red;
+                        Game[i, j].vis.ForeColor = Color.Green;
+                        Game[i, j].vis.Text =  "✔️";
                 }
             }
         }
@@ -426,8 +428,29 @@ namespace shula_Amokshim
                 {
                     if (Game[i, j].isBomb())
                     {
-                        Game[i, j].vis.BackColor = Color.Red;
-                        Game[i, j].vis.Text = "💣";
+
+
+                        if (Game[i, j].vis.Text == "🏁")
+                        {
+                            Game[i, j].vis.BackColor = Color.DarkGray;
+                            Game[i, j].vis.ForeColor = Color.Green;
+                            Game[i, j].vis.Text = "✔️";
+                        }
+                        else
+                        {
+                            Game[i, j].vis.BackColor = Color.Red;
+                            Game[i, j].vis.ForeColor = Color.Black;
+                            Game[i, j].vis.Text = "💣";
+                        }
+                    }
+                    else if (!Game[i, j].isBomb())
+                    {
+                        if (Game[i, j].vis.Text == "🏁")
+                        {
+                            Game[i, j].vis.BackColor = Color.DarkGray;
+                            Game[i, j].vis.ForeColor = Color.DarkRed;
+                            Game[i, j].vis.Text = "✗";
+                        }
                     }
                 }
             }
